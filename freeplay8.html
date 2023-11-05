@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8 deneme</title>
+  
+  <style>
+    /* CSS ile tasarım */
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .product {
+      width: 200px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+    .product button {
+      margin-top: 10px;
+    }
+    .cart {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Ürün Listesi</h1>
+  <div class="product-list">
+    <div class="product">
+      <h2>Ürün 1</h2>
+      <button class="addToCartButton">Sepete Ekle</button>
+    </div>
+    <div class="product">
+      <h2>Ürün 2</h2>
+      <button class="addToCartButton">Sepete Ekle</button>
+    </div>
+    <div class="product">
+      <h2>Ürün 3</h2>
+      <button class="addToCartButton">Sepete Ekle</button>
+    </div>
+  </div>
+  <div class="cart">
+    <h2>Sepet</h2>
+    <ul id="cartItems"></ul>
+  </div>
+
+  <script src="freeplay8.js"></script>
+</body>
+</html>
